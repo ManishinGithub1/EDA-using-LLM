@@ -61,7 +61,7 @@ app=gr.Interface(fn=eda_analysis,
                 inputs=gr.File(type="filepath"),
                 outputs=[gr.Textbox(label="Eda Report"),
                 gr.Gallery(label="Data Visualizations")],
-                title="EDA and LLLM Integration",
+                title="EDA and LLM Integration",
                 description="Analyze the dataset and provide insights, missing values, and visualizations")
 
 app.launch()
